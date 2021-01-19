@@ -42,7 +42,10 @@ const aceAttribsToClasses = (hook, context) => {
 // Here we convert the class color:red into a tag
 exports.aceCreateDomLine = (name, context) => {
   const cls = context.cls;
+  const dom = context.domline;
   const colorsType = /(?:^| )color:([A-Za-z0-9]*)/.exec(cls);
+
+  console.log("xxxx", dom)
 
   let tagIndex;
   if (colorsType) tagIndex = _.indexOf(colors, colorsType[1]);
