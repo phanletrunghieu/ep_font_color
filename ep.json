@@ -3,24 +3,24 @@
     {
       "name": "main",
       "client_hooks": {
-        "postAceInit": "ep_font_color/static/js/index",
-        "aceInitialized": "ep_font_color/static/js/index",
-        "aceEditEvent": "ep_font_color/static/js/index",
-        "aceEditorCSS": "ep_font_color/static/js/index",
-        "aceCreateDomLine": "ep_font_color/static/js/index",
-        "postToolbarInit": "ep_font_color/static/js/index",
-        "aceAttribsToClasses": "ep_font_color/static/js/index",
-        "collectContentPre": "ep_font_color/static/js/shared"
+        "postAceInit": "ep_font_color/static/js/index:postAceInit",
+        "aceInitialized": "ep_font_color/static/js/index:aceInitialized",
+        "aceEditEvent": "ep_font_color/static/js/index:aceEditEvent",
+        "aceEditorCSS": "ep_font_color/static/js/index:aceEditorCSS",
+        "aceCreateDomLine": "ep_font_color/static/js/index:aceCreateDomLine",
+        "postToolbarInit": "ep_font_color/static/js/index:postToolbarInit",
+        "aceAttribsToClasses": "ep_font_color/static/js/index:aceAttribsToClasses",
+        "collectContentPre": "ep_font_color/static/js/shared:collectContentPre"
       },
       "hooks": {
-        "eejsBlock_editbarMenuLeft": "ep_font_color/index",
-        "collectContentPre": "ep_font_color/static/js/shared",
-        "collectContentPost": "ep_font_color/static/js/shared",
-        "exportHtmlAdditionalTagsWithData": "ep_font_color/exportHTML",
-        "stylesForExport": "ep_font_color/exportHTML",
-        "getLineHTMLForExport": "ep_font_color/exportHTML",
-        "eejsBlock_dd_format":"ep_font_color/index",
-        "padInitToolbar": "ep_font_color/index"
+        "eejsBlock_editbarMenuLeft": "ep_font_color/index:eejsBlock_editbarMenuLeft",
+        "collectContentPre": "ep_font_color/static/js/shared:collectContentPre",
+        "collectContentPost": "ep_font_color/static/js/shared:collectContentPost",
+        "exportHtmlAdditionalTagsWithData": "ep_font_color/exportHTML:exportHtmlAdditionalTagsWithData",
+        "stylesForExport": "ep_font_color/exportHTML:stylesForExport",
+        "getLineHTMLForExport": "ep_font_color/exportHTML:getLineHTMLForExport",
+        "eejsBlock_dd_format":"ep_font_color/index:eejsBlock_dd_format",
+        "padInitToolbar": "ep_font_color/index:padInitToolbar"
       }
     }
   ]
